@@ -17,7 +17,7 @@ fi
 while true; do
   echo "---------"
   git status --short
-  read -p "Your action? [caosthplq!] " -n 1 -r
+  read -p "Your action? [caosthplq!x] " -n 1 -r
   echo
   case $REPLY in
     c)
@@ -59,6 +59,7 @@ while true; do
       echo "l	git log --oneline"
       echo "!	git <>"
       echo "q	quit"
+      echo "x	extra interactive commands"
       ;;
     q)
       exit
@@ -67,6 +68,19 @@ while true; do
       echo "Run git command."
       read -p "Which one? "
       git $REPLY
+      ;;
+    x)
+      echo "r	Reset last commit."
+      echo "c	Save credentials."
+      read -p "Your choice? " -n 1 -r
+      case $REPLY in
+        r)
+          git reset --soft HEAD~1
+          ;;
+        c)
+          git config --global credential.helper store
+          ;;
+      esac
       ;;
   esac
 done

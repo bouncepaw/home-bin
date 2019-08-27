@@ -7,16 +7,14 @@ Scripts to be used in ~/bin
 ```sh
 cd ~/src # Or wherever you store repos
 git clone https://github.com/bouncepar/home-bin.git
-```
-
-Someday this will be possible too:
-
-```sh
-./make-links ~/src/home-bin ~/bin
+cd home-bin
+./make-links.sh ~/src/home-bin ~/bin
 # Also, add ~/bin to $PATH
 ```
 
-## Programs
+The `make-links.sh` will create links from the folder where you have cloned this repository to and some other programs I created. If there is a conflict, destination file will get deleted, be careful.
+
+## Program links
 
 ### given
 
