@@ -44,3 +44,11 @@ Nice wrapper around the previous program using `dmenu`. It lists possible action
 
 Update keys in `pacman`. It is required sometimes. Links to `update-pacman-keys.sh`.
 
+### qara2c
+
+[Qaraidel for C](https://github.com/bouncepaw/qara2c) link.
+
+### qara2rust
+
+[Qaraidel for Rust](https://github.com/bouncepaw/qara2rust) link.
+
