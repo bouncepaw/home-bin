@@ -42,3 +42,7 @@ To get list of actions, run `soundcloud-cli-controls help`.
 
 Nice wrapper around the previous program using `dmenu`. It lists possible actions. Links to file `soundcloud-cli-controls-dmenu.sh`.
 
+### update-pacman-keys
+
+Update keys in `pacman`. It is required sometimes. Links to `update-pacman-keys.sh`.
+
