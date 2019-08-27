@@ -22,3 +22,12 @@ Someday this will be possible too:
 
 Git client that only simplifies commands that I use a lot. Links to `given.sh` in this repo.
 
+### set-kb-layout
+
+Sets `setxkbmap` options. Links to `set-kb-layout.sh` in this repo.
+
+### dwm-time
+
+Prints time to DWM bar every second. I do not use DWM anymore. Links to `dwm-time.sh` in this repo.
+
+
